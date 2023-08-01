@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    box-sizing: 0;
+    padding: 0;
+    margin: 0;
+
+}
+@import '~animate.css/animate.min.css';
+a{
+    text-decoration: none;
+}
+@font-face {
+    font-family: "codec";
+    src: url("./assets/Fontes/codec/Codec-Cold-Bold-trial.ttf");
+  }
+
+  

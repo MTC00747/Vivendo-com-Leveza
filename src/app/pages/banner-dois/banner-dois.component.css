@@ -1,0 +1,92 @@
+.banner-dois-container {
+    height: 1400px;
+    width: 100%;
+
+    background-color: white;
+}
+
+.Proposta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#P-pag {
+    text-align: center;
+}
+
+.dores-desejos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+
+    text-align: center;
+    font-family: 'codec';
+    width: 100%;
+    color: #F1E8DC;
+    margin-left: 15px;
+    padding-top: 80px;
+}
+
+p {
+    margin: auto;
+
+ text-align: justify;
+    margin-top: 20px;
+    font-family: 'Athiti';
+    font-size: 1.3em;
+    margin-left: 315px;
+    width: 60%;
+
+}
+
+span {
+    font-weight: bold;
+    color: #F1E8DC;
+}
+
+@media (min-width: 200px) and (max-width:480px) {
+
+    .banner-dois-container {
+        height: 2800px;
+        width: 100%;
+
+        background-color: white;
+    }
+
+    .Proposta {
+        align-items: flex-start;
+    }
+
+    .sobre-mim {
+
+        align-items: flex-start;
+
+    }
+
+    h1 {
+
+        font-family: 'codec';
+        width: 80%;
+        margin-left: 15px;
+        padding-top: 80px;
+        color: #F1E8DC;
+    }
+
+    p {
+        margin-top: 20px;
+        margin-left: 15px;
+        width: 80%;
+        text-align: justify;
+    }
+
+    span {
+        font-weight: bold;
+        color: #F1E8DC;
+    }
+}

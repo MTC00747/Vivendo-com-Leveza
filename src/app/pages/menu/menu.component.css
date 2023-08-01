@@ -1,0 +1,141 @@
+.menu-bar_container {
+    width: 100%;
+    height: 120PX;
+    background-color: #F1E8DC;
+    border-bottom: 1px solid #b9b9b9;
+}
+
+.menu-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 160px;
+
+}
+
+.menu-bar_logo {
+    margin: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+    background-image: url('/assets/Logo/logo.png');
+
+
+}
+
+.menu-bar>nav {
+    display: flex;
+    margin: auto;
+    margin-TOP: 50PX;
+
+}
+
+.menu-bar>nav>a {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    color: black;
+
+    font-family: 'codec';
+    font-size: 1.1em;
+}
+
+.menu-bar>nav>a:HOVER {
+    position: relative;
+    top: 3px;
+    background-color: rgba(255, 235, 205, 0.445);
+}
+
+.menuBurguer {
+    display: none;
+}
+
+
+/*Deixando o site resposivo*/
+
+@media (min-width: 200px) and (max-width:480px) {
+    .menu-bar_container {
+        width: 100%;
+        height: 100px;
+
+    }
+
+    .menu-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #F1E8DC;
+
+    }
+
+    .menu-bar>nav {
+        display: none;
+
+    }
+
+    .menu-bar_logo {
+        margin-left: 20px;
+        margin-right: 200px;
+        margin-top: 20px;
+
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 350px;
+        height: 350px
+    }
+
+    .menuBurguer {
+
+        display: block;
+        margin-right: 40px;
+        margin-bottom: 50px;
+        background-color: #F1E8DC;
+        border: 0;
+        transition-duration: 0.5s;
+    }
+
+
+.menu-bar_coluna {
+    box-shadow: 10px 10px 10px 5px white;
+
+    position: fixed;
+    z-index: 1000;
+    width: 70%;
+    height: 100%;
+    background-color: #F1E8DC;
+    top: 0;
+    right: 0;
+    opacity: 0.9;
+}
+
+.menu-bar_coluna>nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: #F1E8DC;
+}
+
+.menu-bar_coluna>nav>a>img {
+    width: 30px;
+}
+
+.menu-bar_coluna>nav>a {
+    margin-top: 30px;
+    font-size: 1.5em;
+    color: black;
+    background-color: #F1E8DC;
+
+}
+
+.img-menu {
+    width: 40px;
+
+
+}
+
+}

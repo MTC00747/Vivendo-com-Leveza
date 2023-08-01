@@ -1,0 +1,117 @@
+.container-banner{
+    height: 680px;
+    display : flex;
+    flex-direction: row;
+
+}
+.image > img{
+    width: 775px;
+}
+.sobre{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    align-items: center;
+}
+h1{
+    font-family: 'codec';
+    color:black;
+    font-size:2em;
+    margin-top: 30px;
+ 
+}
+h2{
+    font-family: 'codec';
+    font-size: 1.6em;
+    color:#F1E8DC;
+    border-bottom: 1px solid black;
+    width: 40%;
+    margin-right: 0px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 15px;
+  
+}
+p{
+    font-family: 'Athiti';
+    font-size: 1.3em;
+    margin-top: 15px;
+    margin-left: 15px;
+
+}
+strong{
+    font-weight: bold;
+}
+h3{
+ 
+    font-family: 'codec';
+    font-size: 1.1em;
+    color:#F1E8DC;
+  
+    padding-bottom: 20px;
+    margin-top:100px;
+    margin-left: 15px;
+}
+.icones{
+    margin-left:15px;
+ 
+}
+.icones >a >img{
+    width: 30px;
+    margin: 10px;
+}
+@media (min-width: 200px) and (max-width:480px){
+    .container-banner{
+        height: 1000px;
+        display : flex;
+        flex-direction: column;
+
+    }
+    .sobre{
+        align-items: flex-start;
+    }
+    .image > img{
+        width: 100%;
+    }
+    h1{
+        font-family: 'codec';
+        color:black;
+        font-size: 1.3em;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    h2{
+        font-family: 'codec';
+        font-size: 1em;
+        color:#F1E8DC;
+        border-bottom: 1px solid black;
+        width: 20%;
+        padding-bottom: 20px;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    p{
+        font-family: 'Athiti';
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    strong{
+        font-weight: bold;
+    }
+    h3{
+        font-family: 'codec';
+        font-size: 0.8em;
+        color:#F1E8DC;
+      
+        padding-bottom: 20px;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    .icones{
+        margin-left:15px
+    }
+    .icones >a >img{
+        width: 30px;
+        margin: 10px;
+    }
+}

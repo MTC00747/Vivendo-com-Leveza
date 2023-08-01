@@ -1,0 +1,126 @@
+
+.container-servicos {
+    height: 1200px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+
+}
+.servicos{
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ti{
+    margin-bottom: 40px;
+}
+.pa{
+    margin-bottom: 70px;
+}
+.servico-card {
+    height: 400px;
+    margin: 40px;
+   width: 22%;
+    -webkit-box-shadow: -1px 4px 11px -3px rgba(0, 0, 0, 0.76);
+    -moz-box-shadow: -1px 4px 11px -3px rgba(0, 0, 0, 0.76);
+    box-shadow: -1px 4px 11px -3px rgba(0, 0, 0, 0.76);
+    margin-top: 50px;
+    display: flex;
+    background-color: #F1E8DC;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+img {
+    margin-left: 20px;
+    width: 60px;
+}
+
+h1 {
+    font-size: 1.4em;
+    font-family: 'codec';
+    margin-left: 20px;
+}
+
+p {
+    width: 90%;
+    margin-left: 20px;
+    font-size: 1.0em;
+    font-family: 'Athiti';
+    text-align: justify;
+}
+span{
+    
+    font-family: 'Athiti'
+}
+.servico-card > button{
+    margin-left: 15px;
+    width: 60%;
+    background-color: #008000;
+    color: white;
+    border-radius: 15px;
+
+    padding: 5px;
+}
+
+@media (min-width: 200px) and (max-width:480px) {
+    .container-servicos {
+        margin-top: 300px;
+        height: 2600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .servicos{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        
+        flex-wrap: nowrap;
+    }
+    .servico-card {
+        height: 500px;
+        width: 80%;
+        -webkit-box-shadow: -1px 4px 11px -3px rgba(0, 0, 0, 0.76);
+        -moz-box-shadow: -1px 4px 11px -3px rgba(0, 0, 0, 0.76);
+        box-shadow: -1px 4px 11px -3px rgba(0, 0, 0, 0.76);
+        margin-top: 50px;
+        background-color: #F1E8DC;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+
+    img {
+        margin-left: 20px;
+        width: 60px;
+    }
+
+    h1 {
+        width: 80%;
+        font-size: 1.4em;
+        font-family: 'codec';
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    p {
+        width: 90%;
+        margin-left: 20px;
+        font-size: 1.0em;
+        font-family: 'Athiti';
+    }
+    .servico-card > button{
+        margin-left: 15px;
+        width: 60%;
+        background-color: #008000;
+        color: white;
+        border-radius: 15px;
+
+        padding: 5px;
+    }
+}

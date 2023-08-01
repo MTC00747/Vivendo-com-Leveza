@@ -1,0 +1,53 @@
+.contatos-container {
+    background-color: #F1E8DC;
+    border-top: 1px solid black;
+    height: 200px;
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icones>a>img {
+    width: 40px;
+}
+
+.logo {
+
+    width: 20%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url('/assets/Logo/logo.png');
+}
+
+@media (min-width: 200px) and (max-width:480px) {
+    .contatos-container {
+      
+        display:  flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-top: 1px solid black;
+        height: 400px;
+        width: 100%;
+        
+    }
+    .icones{
+      
+    }
+    .icones>a>img {
+        width: 40px;
+        margin: 10px;
+        
+    }
+
+    .logo {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        background: url('/assets/Logo/logo.png');
+        width: 450px;
+        height: 250px;
+    }
+}

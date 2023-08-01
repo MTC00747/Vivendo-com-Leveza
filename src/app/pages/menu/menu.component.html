@@ -1,0 +1,35 @@
+<div class="menu-bar_container">
+
+    <div class="menu-bar">
+
+
+        <div class="menu-bar_logo">
+        </div>
+        <nav>
+            <a href="">Home</a>
+            <a href="">Serviços</a>
+            <a href="">Sobre</a>
+            <a href="">contato</a>
+        </nav>
+
+        <button (click)="abrirMenu()" class="menuBurguer ">
+            <img class="img-menu" src="/assets/menu.png" alt="Menu">
+
+            <div class="menu-bar_coluna  animate__animated animate__slideInRight" *ngIf="menuAberto">
+
+                <nav>
+                    <a href="">Home</a>
+                    <a href="">Serviços</a>
+                    <a href="">Sobre</a>
+                    <a href="">Contato</a>
+                    <a><img src="/assets/icones/facebook.png"></a>
+                    <a href="https://www.instagram.com/tatianelisboa.psi"><img src="/assets/icones/instagram.png"></a>
+                    <a href="https://br.linkedin.com/in/tatiane-lisboa-1833b610b
+                    "><img src="/assets/icones/linkedin.png"></a>
+                    <a href="http://wa.me/557187231248"><img src="/assets/icones/whatsapp.png"></a>
+                </nav>
+
+            </div>
+        </button>
+    </div>
+</div>
